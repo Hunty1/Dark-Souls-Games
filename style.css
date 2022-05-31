@@ -1,0 +1,381 @@
+body{
+    text-align: center;
+    background-color:rgb(29, 27, 27);
+    background-image: url("newbg.jpg");
+    background-repeat: no-repeat; 
+    background: cover;
+    background-position: center center;
+    background-attachment: fixed;
+ 
+    
+}
+html {
+    scroll-behavior: smooth;
+  }
+.logo{
+    width: 100%;
+    height: auto;
+    opacity: 220%;
+    float: right;
+    
+    
+}
+button{
+    background: none;
+    height: 130px;
+    border-style: none;
+    cursor: pointer;
+    color: darkgoldenrod;
+    width: 300px;
+    font-size: 30px;
+    margin-right: 200px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 0;
+   
+    
+
+   
+}
+.cég{
+    height: 1px;
+    opacity: 50%;
+    float: left; 
+}
+p{
+    color: darkgoldenrod;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    
+}
+#története{
+    width: 230px;
+}
+.története{
+    text-align: center;
+    margin-left: 90px;
+}
+.content{
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    
+}
+
+video{
+    border-style: none;
+    width: 50%;
+    height: auto;
+    
+}
+.bg{
+    background-image: url("lovepik-golden-border-png-image_401548991_wh1200black.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 2020px;
+    width: auto;
+    opacity: 95%;
+}
+.bg2{
+    background-image: url("lovepik-golden-border-png-image_401548991_wh1200black2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 2020px;
+    width: auto;
+    opacity: 95%;
+}
+#img1{
+    background-image: url("buttonkeret.png");
+    background-position: top;
+    background-repeat: no-repeat;
+
+}
+#img2{
+    background-image: url("buttonkeret.png");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+#img3{
+    background-image: url("buttonkeret.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+a{
+    text-decoration: none;
+    color: goldenrod;
+}
+.buttons{
+    margin-left: 150px;
+}
+.dsicon{
+    float: left;
+
+}
+.balfent{
+    display: inline;
+}
+article{
+    border: 2px solid goldenrod;
+    border-bottom: 0px;
+    border-left:0px;
+    border-right: 0px;    
+    text-align: left;
+    width: auto;
+    height: 200px;
+    background-color: black;
+    background-size: cover;
+}
+aside{
+    display: block;
+  
+    float: left;
+}
+figcaption{
+    color: goldenrod;
+}
+nav{
+    display: inline-block;
+}
+.Forrasok p{
+    text-align: center;
+}
+.forras{
+    margin-left: 500px;
+}
+section{
+    display: block;
+}
+header{
+    text-align: left;
+    margin-left: 150px;
+    color: white;
+}
+.Jatekrol1{
+    float: right;
+    width: 300px;
+    margin-right: 200px;
+    color: white;
+    text-align: center;
+}
+.center{
+    margin-left: 300px;
+}
+form{
+    float: left;
+    display:block;
+}
+.tartalomjegyzek{
+    width: 300px;
+    color: white;
+}
+.tartalomlista{
+    margin-left: 10px;
+    text-align: left;
+}
+ol li{
+    color: white;
+}
+.rendszerkovetelmenyek{
+    color: goldenrod;
+    width: 1000px;
+}
+
+.youtube1{
+    margin-right: 200px;
+}
+input[type=search] {
+    width: 50px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 16px;
+    background-image: url("searchicon.png");
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  input[type=search]:focus {
+    width: 100%;
+  }
+aside{
+    width: 400px;
+    font-size: 23px;
+    color: goldenrod;    
+}
+.DLC{
+    margin-left: 50px;
+    color: goldenrod;
+    font-size: 20px;
+    text-align: left;
+}
+.közepre{
+    margin-left: 200px;
+}
+.közepre1{
+    margin-right: 500px;
+}
+.dijaklista{
+    text-align: left;
+    margin-left: 50px;
+    color: goldenrod;
+}
+
+
+
+.row > .column {
+    padding: 0 8px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  
+  }
+  
+  .modal-content {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  .close {
+    color: goldenrod;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: yellow;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .mySlides {
+    display: none;
+    border: 2px goldenrod solid;
+    background-color: black;
+  }
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  .prev{
+      left: 0;
+      border-radius: 3px 0 0 3px;
+      color: goldenrod;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    color: gold;
+  }
+  
+  .numbertext {
+    color: goldenrod;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: center;
+    top: 0;
+  }
+  
+
+  
+  img.demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  .border{
+      border: 2px goldenrod solid;
+      margin-left: 550px;
+      margin-right: 550px;
+  }
+ fieldset{
+     border-style: none;
+ }
+ .Kerdoiv{
+     text-align: left;
+     margin-left: 200px;
+     color: goldenrod;
+     width: 1000px;
+  
+ }
+ .kozepre{
+     text-align: center;
+ }
+h1{
+    font-size: 50px;
+}
+.fejlec{
+    background-image: url("2729.jpg");
+    background-position: center;
+    background: cover;
+    height: 200px;
+    width: 1920px;
+}
+.kerdoivkozepre{
+    margin-left: 600px;
+    font-size: 25px;
+}
+.submit{
+    margin-left: 50px;
+}
